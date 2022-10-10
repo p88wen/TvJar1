@@ -22,11 +22,12 @@ import java.util.Set;
 
 /**
  * Author: @SDL
+ Dalvik/2.1.0
  */
 public class Kunyu77 extends Spider {
     private static final String siteUrl = "http://api.kunyu77.com";
 
-    private String uAgent = "Dalvik/2.1.0 (Linux; U; Android " + Build.VERSION.RELEASE + "; " + Build.MODEL + " Build/" + Build.ID + ")";
+    private String uAgent = "okhttp/3.12.0 (Linux; U; Android " + Build.VERSION.RELEASE + "; " + Build.MODEL + " Build/" + Build.ID + ")";
 
     private HashMap<String, String> getHeaders(String url) {
         HashMap<String, String> headers = new HashMap<>();
